@@ -17,7 +17,6 @@ export default function PricingPlan() {
               <div>
                 <p className="text-lg font-medium">Basic Package</p>
                 <h2 className="text-4xl font-bold mt-2">$30.00</h2>
-                <p className="text-sm mt-2">Free plan for all users.</p>
               </div>
 
               <ul className="space-y-4">
@@ -57,7 +56,6 @@ export default function PricingPlan() {
                 <h2 className="text-4xl font-bold mt-2">
                   $50.00<span className="text-base font-normal"></span>
                 </h2>
-                <p className="text-sm mt-2">Ideal for individual creators.</p>
               </div>
 
               <ul className="space-y-4">
@@ -97,7 +95,6 @@ export default function PricingPlan() {
                 <h2 className="text-4xl font-bold mt-2">
                   $70.00<span className="text-base font-normal"></span>
                 </h2>
-                <p className="text-sm mt-2">Small teams with up to 10 users.</p>
               </div>
 
               <ul className="space-y-4">

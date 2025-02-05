@@ -5,9 +5,9 @@ import { ChevronLeft, ChevronRight, Star } from "lucide-react"
 const testimonials = [
   {
     id: 1,
-    name: "Abhishek Verma",
+    name: "James Oliver",
     role: "Marketing Director",
-    image: "/testimonial1.jpg",
+    image: "/testimonial4.jpeg",
     quote:
       "Working with this team has been an absolute game-changer for our business. Their attention to detail and creative solutions have helped us achieve remarkable results. I couldn't be happier with their services!",
     rating: 5,

@@ -4,11 +4,13 @@ const Banner = () => {
   return (
     <div className="relative bg-[#22024E] text-white">
       <div className="absolute inset-0 overflow-hidden">
-        <video
+      <video
           autoPlay
           muted
           loop
-          className="h-full w-full object-cover playsInline webkit-playsinline"
+          playsInline
+          webkit-playsinline='true'
+          className="h-full w-full object-cover"
         >
           <source src="/158316-816359649_large.mp4" type="video/mp4" />
           Your browser does not support the video tag.

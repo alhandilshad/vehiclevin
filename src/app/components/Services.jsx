@@ -15,7 +15,7 @@ export default function Services() {
           <div className="p-6 shadow-lg rounded-lg bg-white hover:bg-[#9403e4] hover:text-white duration-300">
             <div className="flex flex-col items-center text-center space-y-4">
               <div>
-                <img src="https://vehiclefaxrecords.com/assets/images/services-2.png" />
+                <img src="/services-1.png" />
               </div>
               <h3 className="text-xl font-[montserratSemiBold]">Vehicle Ownership History</h3>
               <p className="font-[montserratRegular]">Easily verify vehicle history using our report, which includes details about past vehicle proprietors, alongside ownership tenure and whereabouts.</p>
@@ -26,7 +26,7 @@ export default function Services() {
           <div className="p-6 shadow-lg rounded-lg bg-white hover:bg-[#9403e4] hover:text-white duration-300">
             <div className="flex flex-col items-center text-center space-y-4">
               <div>
-                <img src="https://vehiclefaxrecords.com/assets/images/services-4.png" />
+                <img src="/services-2.png" />
               </div>
               <h3 className="text-xl font-[montserratSemiBold]">Stolen Vehicle Check</h3>
               <p className="font-[montserratRegular]">Check the vehicle's theft history before buying. Verifying records protects you from legal issues and ensures your investment is secure.</p>
@@ -37,7 +37,7 @@ export default function Services() {
           <div className="p-6 shadow-lg rounded-lg bg-white hover:bg-[#9403e4] hover:text-white duration-300">
             <div className="flex flex-col items-center text-center space-y-4">
               <div>
-                <img src="https://vehiclefaxrecords.com/assets/images/services-6.png" />
+                <img src="/services-3.png" />
               </div>
               <h3 className="text-xl font-[montserratSemiBold]">Odometer Rollback</h3>
               <p className="font-[montserratRegular]">Each year, over 450,000 cars in North America are sold with inaccurate odometer readings. Our vehicle history report helps you verify true mileage and prevent rollback, ensuring confidence in your purchase.</p>
@@ -48,7 +48,7 @@ export default function Services() {
           <div className="p-6 shadow-lg rounded-lg bg-white hover:bg-[#9403e4] hover:text-white duration-300">
             <div className="flex flex-col items-center text-center space-y-4">
               <div>
-                <img src="https://vehiclefaxrecords.com/assets/images/services-1.png" />
+                <img src="/services-4.png" />
               </div>
               <h3 className="text-xl font-[montserratSemiBold]">Vehicle Usage And Accident History</h3>
               <p className="font-[montserratRegular]">Our report assesses past vehicle usage. To check if it was a rental or for personal use. Buying a pre-owned car? Uncover its accident history with our detailed reports.</p>

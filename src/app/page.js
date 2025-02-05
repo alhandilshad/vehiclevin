@@ -5,6 +5,7 @@ import AboutUs from './components/AboutUs';
 import Services from './components/Services';
 import PricingPlan from './components/PricingPlan';
 import Footer from './components/Footer';
+import Testimonials from './components/Testimonials';
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
       <Services />
       <AboutUs />
       <PricingPlan />
+      <Testimonials />
       <Footer />
     </div>
   )

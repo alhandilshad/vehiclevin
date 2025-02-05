@@ -12,7 +12,7 @@ export default function PricingPlan() {
       <div className="flex items-center justify-center mt-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
           {/* Simple Plan */}
-          <div className="bg-[#FFD6EC] p-8 rounded-3xl">
+          <div className="bg-blue-200 p-8 rounded-3xl">
             <div className="space-y-6">
               <div>
                 <p className="text-lg font-medium">Basic Package</p>
@@ -49,7 +49,7 @@ export default function PricingPlan() {
           </div>
 
           {/* Efficient Plan */}
-          <div className="bg-[#B4EEE3] p-8 rounded-3xl">
+          <div className="bg-[#dcdcdc] p-8 rounded-3xl">
             <div className="space-y-6">
               <div>
                 <p className="text-lg font-medium">Silver Package</p>

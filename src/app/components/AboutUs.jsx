@@ -7,7 +7,7 @@ const AboutUs = () => {
         {/* Left Image */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <img
-            src="https://images.pexels.com/photos/11731972/pexels-photo-11731972.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="/about.webp"
             alt="Mechanic inspecting a car"
             className="rounded-lg shadow-lg w-full h-full"
           />

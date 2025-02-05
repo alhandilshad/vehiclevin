@@ -4,6 +4,7 @@ import Banner from './components/Banner';
 import AboutUs from './components/AboutUs';
 import Services from './components/Services';
 import PricingPlan from './components/PricingPlan';
+import Footer from './components/Footer';
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
       <Services />
       <AboutUs />
       <PricingPlan />
+      <Footer />
     </div>
   )
 }

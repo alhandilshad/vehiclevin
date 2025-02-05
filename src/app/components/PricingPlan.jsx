@@ -3,7 +3,7 @@ import { Check } from "lucide-react";
 export default function PricingPlan() {
   return (
     <div className="bg-[#EFEFEF] w-full px-6 py-20">
-      <h1 className="text-4xl font-[montserratSemiBold] text-center text-[#22024E]">
+      <h1 className="text-4xl font-[montserratSemiBold] text-center text-[#22024E]" id="pricing">
         Our Pricing Plan's
       </h1>
       <p className="text-center text-[#22024E] pt-2">

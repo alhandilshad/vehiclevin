@@ -16,16 +16,6 @@ export default function Footer() {
               Your trusted partner for innovative digital solutions. We are committed to delivering quality, creativity,
               and excellence to help businesses thrive in the digital world.
             </p>
-            <div className="space-y-2">
-              <div className="flex items-center gap-2">
-                <Mail className="w-5 h-5" />
-                <span>365@vehiclevinreports.com</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <MapPin className="w-5 h-5" />
-                <span>21 King Street Melbourne, 3000, United States</span>
-              </div>
-            </div>
           </div>
 
           {/* Company Links */}
@@ -70,31 +60,19 @@ export default function Footer() {
           {/* Follow Us Section */}
           <div>
             <h3 className="text-lg font-semibold mb-6 relative inline-block">
-              FOLLOW US
+              CONTACT INFO
               <div className="absolute -bottom-2 left-0 w-12 h-0.5 bg-white"></div>
             </h3>
-            <ul className="space-y-3">
-              <li>
-                <Link href="/services/graphic" className="hover:text-gray-300">
-                  Graphic & Motion Design
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/mobile" className="hover:text-gray-300">
-                  Mobile App Development
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/ui-ux" className="hover:text-gray-300">
-                  UI/UX Design
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/web" className="hover:text-gray-300">
-                  Web Design & Development
-                </Link>
-              </li>
-            </ul>
+            <div className="space-y-2">
+              <div className="flex items-center gap-2">
+                <Mail className="w-5 h-5" />
+                <span>365@vehiclevinreports.com</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <MapPin className="w-5 h-5" />
+                <span>21 King Street Melbourne, 3000, United States</span>
+              </div>
+            </div>
             <div className="flex gap-4 mt-6">
               <Link href="#" className="hover:text-gray-300">
                 <Facebook className="w-5 h-5" />

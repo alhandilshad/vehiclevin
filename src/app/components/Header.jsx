@@ -33,6 +33,9 @@ const Header = () => {
           <Link href="/#pricing" onClick={() => handleLinkClick("pricing")} className={`text-gray-300 ${activeSection === "pricing" ? "text-white" : "hover:text-white"} duration-200`}>
             PRICING
           </Link>
+          <Link href="/#testimonials" onClick={() => handleLinkClick("testimonials")} className={`text-gray-300 ${activeSection === "testimonials" ? "text-white" : "hover:text-white"} duration-200`}>
+            TESTIMONIALS
+          </Link>
           <Link href="/#contact" onClick={() => handleLinkClick("contact")} className={`text-gray-300 ${activeSection === "contact" ? "text-white" : "hover:text-white"} duration-200`}>
             CONTACT US
           </Link>
@@ -57,6 +60,9 @@ const Header = () => {
             <Link href="/#pricing" onClick={() => handleLinkClick("pricing")} className={`text-gray-300 ${activeSection === "pricing" ? "text-white" : "hover:text-white"} duration-200`}>
               PRICING
             </Link>
+            <Link href="/#testimonials" onClick={() => handleLinkClick("testimonials")} className={`text-gray-300 ${activeSection === "testimonials" ? "text-white" : "hover:text-white"} duration-200`}>
+            TESTIMONIALS
+          </Link>
             <Link href="/#contact" onClick={() => handleLinkClick("contact")} className={`text-gray-300 ${activeSection === "contact" ? "text-white" : "hover:text-white"} duration-200`}>
               CONTACT US
             </Link>

@@ -18,12 +18,8 @@ export default function Footer() {
             </p>
             <div className="space-y-2">
               <div className="flex items-center gap-2">
-                <Phone className="w-5 h-5" />
-                <span>090078601</span>
-              </div>
-              <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5" />
-                <span>vehiclefaxecord@email.com</span>
+                <span>365@vehiclevinreports.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-5 h-5" />
@@ -45,22 +41,27 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-gray-300">
+                <Link href="/#services" className="hover:text-gray-300">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-gray-300">
+                <Link href="/#about" className="hover:text-gray-300">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/portfolio" className="hover:text-gray-300">
+                <Link href="/#pricing" className="hover:text-gray-300">
                   Pricing
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-gray-300">
+                <Link href="/#testimonials" className="hover:text-gray-300">
+                  Testimonials
+                </Link>
+              </li>
+              <li>
+                <Link href="/#contact" className="hover:text-gray-300">
                   Contact Us
                 </Link>
               </li>
@@ -110,7 +111,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-gray-200">Copyright 2024. Vehicle Fax Records, All Rights Reserved | Payment Non-Refundable.</p>
+          <p className="text-sm text-gray-200">Copyright {new Date().getFullYear()} Vehicle Vin, All Rights Reserved | Payment Non-Refundable.</p>
           <Link href="/" className="text-sm text-gray-200 hover:text-white mt-4 md:mt-0">
             Privacy Policy
           </Link>

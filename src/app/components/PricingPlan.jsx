@@ -1,6 +1,9 @@
+"use client"
 import { Check } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 export default function PricingPlan() {
+  const router = useRouter();
   return (
     <div className="bg-[#EFEFEF] w-full px-6 py-20">
       <h1 className="text-4xl font-[montserratSemiBold] text-center text-[#22024E]" id="pricing">
@@ -128,7 +131,7 @@ export default function PricingPlan() {
         </div>
       </div>
       <div className="flex items-center justify-center mt-5">
-        <button className="text-white px-8 md:px-10 py-3 rounded-md font-semibold mt-6 duration-500 shadow-[0px_10px_30px_rgba(118,85,225,0.3)] bg-origin-border bg-clip-border border-2 border-transparent bg-[linear-gradient(to_right,#4458dc_0%,#854fee_100%),radial-gradient(circle_at_top_left,#4458dc,#854fee)] hover:bg-[linear-gradient(#ffffff,#ffffff),radial-gradient(circle_at_top_left,#4458dc,#854fee)] hover:border-2 hover:border-[#854fee] hover:text-[#222222] hover:shadow-none hover:bg-clip-border">
+        <button onClick={() => router.push('/ReportForm')} className="text-white px-8 md:px-10 py-3 rounded-md font-semibold mt-6 duration-500 shadow-[0px_10px_30px_rgba(118,85,225,0.3)] bg-origin-border bg-clip-border border-2 border-transparent bg-[linear-gradient(to_right,#4458dc_0%,#854fee_100%),radial-gradient(circle_at_top_left,#4458dc,#854fee)] hover:bg-[linear-gradient(#ffffff,#ffffff),radial-gradient(circle_at_top_left,#4458dc,#854fee)] hover:border-2 hover:border-[#854fee] hover:text-[#222222] hover:shadow-none hover:bg-clip-border">
           GET YOUR REPORT NOW
         </button>
       </div>

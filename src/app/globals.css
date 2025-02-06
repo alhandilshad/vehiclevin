@@ -19,3 +19,13 @@ body {
   background: var(--background); */
   font-family: 'montserratMedium';
 }
+
+@keyframes spin-circle {
+  0% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
+
+.animate-spin-circle {
+  animation: spin-circle 4s linear infinite;
+}

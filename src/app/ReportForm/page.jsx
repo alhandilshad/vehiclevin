@@ -2,8 +2,11 @@
 import { User, Mail, Key, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
+import emailjs from '@emailjs/browser'
+import { useRouter } from "next/navigation";
 
 const CarReportForm = () => {
+  const router = useRouter();
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [vin, setVin] = useState('');
@@ -23,12 +26,35 @@ const CarReportForm = () => {
       alert("Please enter a valid VIN number (17 characters)");
       return;
     }
+
+    router.push('/Packages')
+
+    const serviceId = 'service_6uhjsaf'
+    const templateId = 'template_iy07d0a'
+    const publicKey = 'UTjsQjXNVHtfWckSM'
+
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      to_name: 'Alhan',
+      message: `Your report  for ${vin} is currently being processed and will be delivered to you soon. Please complete the payment if you haven't already to avoid any further delays.`,
+    }
+
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+     .then((res) => {
+        console.log('email sent successfully', res);
+        alert('Your message has been sent successfully!');
+        setName('');
+        setEmail('');
+        setVin('');
+      })
+     .catch((err) => console.error('Failed to send email', err));
   }
 
   return (
     <div className="min-h-screen flex flex-col gap-4 items-center justify-center bg-gray-100 px-4 md:px-0">
       <div className="font-[montserratSemiBold] text-lg flex gap-2">
-        <img src="/download.png" className="w-10" /> VEHICLE VIN
+      <img src="/pakwheels.png" className="w-8 animate-spin-circle" /> <img src="/download.png" className="w-10" /> VEHICLE VIN
       </div>
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
         <h1 className="text-3xl font-[montserratSemiBold] text-center mb-6 text-[#22024E]">

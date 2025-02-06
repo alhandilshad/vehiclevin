@@ -7,11 +7,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <img src="footer.webp"></img>
+            <img className="rounded-lg" src="footer.webp"></img>
           </div>
           {/* Company Info */}
           <div className="space-y-6">
-            <h2 className="text-2xl font-bold flex gap-2">VEHICLE VIN <img src="/download.png" className="w-10" /></h2>
+            <h2 className="text-2xl font-bold flex gap-2">VEHICLE VIN <img src="/pakwheels.png" className="w-8 animate-spin-circle" /> <img src="/download.png" className="w-10" /></h2>
             <p className="text-gray-200 text-sm leading-relaxed">
               Your trusted partner for innovative digital solutions. We are committed to delivering quality, creativity,
               and excellence to help businesses thrive in the digital world.
@@ -89,7 +89,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-gray-200">Copyright {new Date().getFullYear()} Vehicle Vin, All Rights Reserved | Payment Non-Refundable.</p>
+          <p className="text-sm text-gray-200">Copyright, Since 1994 Vehicle Vin, All Rights Reserved | Payment Non-Refundable.</p>
           <Link href="/" className="text-sm text-gray-200 hover:text-white mt-4 md:mt-0">
             Privacy Policy
           </Link>

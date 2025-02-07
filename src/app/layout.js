@@ -38,27 +38,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        {/* Default metadata */}
-        <title>Vehicle Vin</title>
-        <meta name="description" content="Vehicle Vin Records" />
-        <meta property="og:title" content="Vehicle Vin" />
-        <meta property="og:description" content="Vehicle Vin Records" />
-        <meta
-          property="og:image"
-          content="/about.webp"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://yourdomain.com" />
-        {/* Twitter Card metadata */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Vehicle Vin" />
-        <meta name="twitter:description" content="Vehicle Vin Records" />
-        <meta
-          name="twitter:image"
-          content="/about.webp"
-        />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

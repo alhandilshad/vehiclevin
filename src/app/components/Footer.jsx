@@ -11,7 +11,7 @@ export default function Footer() {
           </div>
           {/* Company Info */}
           <div className="space-y-6">
-            <h2 className="text-2xl font-bold flex gap-2">VEHICLE VIN <img src="/pakwheels.png" className="w-8 animate-spin-circle" /> <img src="/download.png" className="w-10" /></h2>
+            <h2 className="text-2xl font-bold flex gap-2">VEHICLE VIN <img src="/inspect.png" className="w-10" /> <img src="/download.png" className="w-10" /></h2>
             <p className="text-gray-200 text-sm leading-relaxed">
               Your trusted partner for innovative digital solutions. We are committed to delivering quality, creativity,
               and excellence to help businesses thrive in the digital world.
@@ -70,7 +70,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-5 h-5" />
-                <span>21 King Street Melbourne, 3000, United States</span>
+                <span>2150 Jarvis Street New York, 3000, United States</span>
               </div>
             </div>
             <div className="flex gap-4 mt-6">

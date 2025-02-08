@@ -10,7 +10,7 @@ export default function PricingPage() {
     <div className="min-h-screen w-full bg-gray-100 flex flex-col items-center justify-center p-6 md:p-12">
         <div className="font-[montserratSemiBold] text-lg flex gap-2 mb-5">
           <img src="/inspect.png" className="w-10" />{" "}
-          <img src="/download.png" className="w-10" /> VEHICLE VIN
+          <img src="/download.png" className="w-10 h-7" /> VEHICLE VIN
         </div>
       <div className="max-w-6xl w-full mx-auto space-y-12">
         <div className="text-center space-y-4">

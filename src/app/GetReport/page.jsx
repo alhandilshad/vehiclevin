@@ -51,7 +51,7 @@ const Page = () => {
   return (
     <div className="min-h-screen bg-gray-100 p-8">
       <div className="font-[montserratSemiBold] text-lg flex gap-2 items-center justify-center mb-2">
-      <img src="/inspect.png" className="w-10" /> <img src="/download.png" className="w-10" /> VEHICLE VIN
+      <img src="/inspect.png" className="w-10" /> <img src="/download.png" className="w-10 h-7" /> VEHICLE VIN
       </div>
       <h1 className="text-4xl font-[montserratSemiBold] mb-6 text-center text-black">
         Vehicle Report

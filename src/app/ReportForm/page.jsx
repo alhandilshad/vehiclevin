@@ -27,6 +27,20 @@ const CarReportForm = () => {
       return;
     }
 
+    await emailjs.send(
+      "service_ptu6cto",
+      "template_0jwat6b",
+      {
+        to_name: name,
+        to_email: email,
+        vin_number: vin,
+        message: `Your report for ${vin} is currently being processed and will be delivered to you soon. Please complete the payment if you haven't already to avoid any further delays.`,
+        from_name: "Vehicle VIN Reports",
+        from_email: "365vehiclevinreports@gmail.com",
+      },
+      "oazfSJXPu8Ta25UhF"
+    );
+
     localStorage.setItem("vin", JSON.stringify(vin));
     router.push("/GetReport");
   }

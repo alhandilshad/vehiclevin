@@ -19,7 +19,7 @@ export default function PricingPlan() {
             <div className="space-y-6">
               <div>
                 <p className="text-lg font-medium">Basic Package</p>
-                <h2 className="text-4xl font-bold mt-2">$30.00</h2>
+                <h2 className="text-4xl font-bold mt-2">$35.00</h2>
               </div>
 
               <ul className="space-y-4">

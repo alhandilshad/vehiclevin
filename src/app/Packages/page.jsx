@@ -24,7 +24,7 @@ export default function PricingPage() {
             <h1 className="text-xl font-[montserratSemiBold] text-[#22024E]">
               BASIC PACKAGE
             </h1>
-            <h1 className="text-[#22024E] text-xl">30.00$</h1>
+            <h1 className="text-[#22024E] text-xl">35.00$</h1>
           </div>
           <div className="rounded-xl cursor-pointer py-16 px-5 bg-[#dcdcdc] shadow-md flex flex-col justify-center items-center gap-4 hover:shadow-xl duration-300">
             <h1 className="text-xl font-[montserratSemiBold] text-[#22024E]">

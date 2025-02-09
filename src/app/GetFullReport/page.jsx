@@ -14,7 +14,7 @@ const Page = () => {
 //const vin = "XXXDEF1GH23456789".toUpperCase();
 
   const handlePasswordSubmit = () => {
-    if (password === "abc") {
+    if (password === "H-TECHBPO2024") {
       setStep(2); // Move to the next step
     } else {
       alert("Invalid password");
@@ -299,7 +299,7 @@ const Page = () => {
         });
 
         doc.setFontSize(10);
-        doc.text("2025 Vehicle VIN Records - All Rights Reserved.", doc.internal.pageSize.width / 2, 40, {
+        doc.text("Since 1994 Vehicle VIN Records - All Rights Reserved.", doc.internal.pageSize.width / 2, 40, {
           align: "center",
         });
   

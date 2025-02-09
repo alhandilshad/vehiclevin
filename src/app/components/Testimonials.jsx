@@ -146,7 +146,7 @@ export default function Testimonials() {
       <div className="py-12 px-6 text-center">
         <h1 className="text-2xl text-[#22024E] font-[montserratSemiBold]">TRUSTED DATA PROVIDERS FOR ALL VEHICLE TYPES</h1>
         <p className="pt-2">
-          Vehicle Fax Records furnishes information sourced from
+          Vehicle Vin furnishes information sourced from
           industry-leading data providers and authoritative experts, ensuring
           reliability and trustworthiness.
         </p>

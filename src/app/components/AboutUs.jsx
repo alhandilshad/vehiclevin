@@ -25,7 +25,7 @@ const AboutUs = () => {
 
           {/* Paragraph */}
           <p className="text-lg leading-relaxed">
-            At Vehicle Fax Records, we provide accurate and comprehensive vehicle
+            At Vehicle Vin, we provide accurate and comprehensive vehicle
             history reports to help you make informed buying decisions. From
             ownership history to accident records and odometer accuracy, our reports
             give you the peace of mind you need to buy with confidence. Trust us to

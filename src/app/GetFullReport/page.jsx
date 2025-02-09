@@ -312,7 +312,7 @@ const Page = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
       <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-xl text-center">
-      <div className="font-[montserratSemiBold] flex items-center gap-2"><img src="/inspect.png" className="w-7" /> <img src="/download.png" className="w-8 h-5" /> <h1 className="text-xl">VEHICLE VIN</h1></div>
+      <div className="font-[montserratSemiBold] flex items-center justify-center gap-2 mb-8"><img src="/inspect.png" className="w-7" /> <img src="/download.png" className="w-8 h-5" /> <h1 className="text-xl">VEHICLE VIN</h1></div>
         {step === 1 && (
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">

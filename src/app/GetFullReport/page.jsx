@@ -229,8 +229,8 @@ const Page = () => {
     const doc = new jsPDF();
   
     // Add the logo image to the top center
-    const logoWidth = 40; // Adjust the logo width
-    const logoHeight = 20; // Adjust the logo height
+    const logoWidth = 30; // Adjust the logo width
+    const logoHeight = 10; // Adjust the logo height
     const centerX = (doc.internal.pageSize.width - logoWidth) / 2;
   
     const logoURL = "/inspect.png"; // Change to the actual path of your logo
@@ -312,7 +312,7 @@ const Page = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
       <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-xl text-center">
-        <h1 className="text-2xl font-bold text-[#22024E] mb-4">Vehicle VIN</h1>
+      <div className="font-[montserratSemiBold] flex items-center gap-2"><img src="/inspect.png" className="w-7" /> <img src="/download.png" className="w-8 h-5" /> <h1 className="text-xl">VEHICLE VIN</h1></div>
         {step === 1 && (
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">

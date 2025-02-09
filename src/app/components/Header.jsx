@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header className="sticky top-0 md:z-50 z-10 bg-[#22024E] text-white">
       <div className="container mx-auto flex items-center justify-between py-5 px-6">
-        <div className="font-[montserratSemiBold] text-lg flex gap-2"><img src="/inspect.png" className="w-10" /> <img src="/download.png" className="w-10 h-7" /> VEHICLE VIN</div>
+        <div className="font-[montserratSemiBold] flex items-center gap-2"><img src="/inspect.png" className="w-7" /> <img src="/download.png" className="w-8 h-5" /> <h1 className="text-xl">VEHICLE VIN</h1></div>
         <nav className="hidden md:flex space-x-6 text-sm">
           <Link href="/" onClick={() => handleLinkClick("/")} className={`text-gray-300 ${activeSection === "/" ? "text-white" : "hover:text-white"} duration-200`}>
             HOME

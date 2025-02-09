@@ -47,9 +47,7 @@ const CarReportForm = () => {
 
   return (
     <div className="min-h-screen flex flex-col gap-4 items-center justify-center bg-gray-100 px-4 md:px-0">
-      <div className="font-[montserratSemiBold] text-lg flex gap-2">
-      <img src="/inspect.png" className="w-10" /> <img src="/download.png" className="w-10 h-7" /> VEHICLE VIN
-      </div>
+      <div className="font-[montserratSemiBold] flex items-center gap-2"><img src="/inspect.png" className="w-7" /> <img src="/download.png" className="w-8 h-5" /> <h1 className="text-xl">VEHICLE VIN</h1></div>
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
         <h1 className="text-3xl font-[montserratSemiBold] text-center mb-6 text-[#22024E]">
           Car Report Form

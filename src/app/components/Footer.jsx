@@ -11,7 +11,7 @@ export default function Footer() {
           </div>
           {/* Company Info */}
           <div className="space-y-6">
-            <h2 className="text-2xl font-bold flex gap-2">VEHICLE VIN <img src="/inspect.png" className="w-10" /> <img src="/download.png" className="w-10 h-7" /></h2>
+          <div className="font-[montserratSemiBold] flex items-center gap-2"><img src="/inspect.png" className="w-7" /> <img src="/download.png" className="w-8 h-5" /> <h1 className="text-xl">VEHICLE VIN</h1></div>
             <p className="text-gray-200 text-sm leading-relaxed">
               Your trusted partner for innovative digital solutions. We are committed to delivering quality, creativity,
               and excellence to help businesses thrive in the digital world.
